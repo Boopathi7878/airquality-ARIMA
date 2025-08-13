@@ -1,0 +1,236 @@
+{
+    "Ahmedabad": {
+        "model_file": "Ahmedabad_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            2
+        ],
+        "rmse": 262.78668153027246
+    },
+    "Aizawl": {
+        "model_file": "Aizawl_AutoARIMA.pkl",
+        "order": [
+            0,
+            1,
+            0
+        ],
+        "rmse": 5.437390678561211
+    },
+    "Amaravati": {
+        "model_file": "Amaravati_AutoARIMA.pkl",
+        "order": [
+            2,
+            1,
+            1
+        ],
+        "rmse": 68.79956244378654
+    },
+    "Amritsar": {
+        "model_file": "Amritsar_AutoARIMA.pkl",
+        "order": [
+            2,
+            1,
+            1
+        ],
+        "rmse": 121.76646506642774
+    },
+    "Bengaluru": {
+        "model_file": "Bengaluru_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            1
+        ],
+        "rmse": 34.409125610415536
+    },
+    "Bhopal": {
+        "model_file": "Bhopal_AutoARIMA.pkl",
+        "order": [
+            2,
+            1,
+            1
+        ],
+        "rmse": 33.212345157764624
+    },
+    "Brajrajnagar": {
+        "model_file": "Brajrajnagar_AutoARIMA.pkl",
+        "order": [
+            5,
+            1,
+            1
+        ],
+        "rmse": 61.54110884691412
+    },
+    "Chandigarh": {
+        "model_file": "Chandigarh_AutoARIMA.pkl",
+        "order": [
+            4,
+            1,
+            1
+        ],
+        "rmse": 26.41304560906255
+    },
+    "Chennai": {
+        "model_file": "Chennai_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            1
+        ],
+        "rmse": 36.96834469021698
+    },
+    "Coimbatore": {
+        "model_file": "Coimbatore_AutoARIMA.pkl",
+        "order": [
+            4,
+            0,
+            2
+        ],
+        "rmse": 35.83373108218719
+    },
+    "Delhi": {
+        "model_file": "Delhi_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            2
+        ],
+        "rmse": 114.06578606107665
+    },
+    "Ernakulam": {
+        "model_file": "Ernakulam_AutoARIMA.pkl",
+        "order": [
+            0,
+            1,
+            0
+        ],
+        "rmse": 8.226896023520547
+    },
+    "Gurugram": {
+        "model_file": "Gurugram_AutoARIMA.pkl",
+        "order": [
+            3,
+            1,
+            3
+        ],
+        "rmse": 130.26415649551805
+    },
+    "Guwahati": {
+        "model_file": "Guwahati_AutoARIMA.pkl",
+        "order": [
+            3,
+            1,
+            1
+        ],
+        "rmse": 142.8972113738093
+    },
+    "Hyderabad": {
+        "model_file": "Hyderabad_AutoARIMA.pkl",
+        "order": [
+            0,
+            1,
+            3
+        ],
+        "rmse": 46.64122822321514
+    },
+    "Jaipur": {
+        "model_file": "Jaipur_AutoARIMA.pkl",
+        "order": [
+            2,
+            1,
+            1
+        ],
+        "rmse": 51.938096518260586
+    },
+    "Jorapokhar": {
+        "model_file": "Jorapokhar_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            2
+        ],
+        "rmse": 54.99525824265833
+    },
+    "Kochi": {
+        "model_file": "Kochi_AutoARIMA.pkl",
+        "order": [
+            0,
+            1,
+            0
+        ],
+        "rmse": 23.191560638484095
+    },
+    "Kolkata": {
+        "model_file": "Kolkata_AutoARIMA.pkl",
+        "order": [
+            3,
+            1,
+            2
+        ],
+        "rmse": 127.95085263736142
+    },
+    "Lucknow": {
+        "model_file": "Lucknow_AutoARIMA.pkl",
+        "order": [
+            2,
+            1,
+            2
+        ],
+        "rmse": 97.8358591246888
+    },
+    "Mumbai": {
+        "model_file": "Mumbai_AutoARIMA.pkl",
+        "order": [
+            4,
+            1,
+            1
+        ],
+        "rmse": 54.051434529602595
+    },
+    "Patna": {
+        "model_file": "Patna_AutoARIMA.pkl",
+        "order": [
+            2,
+            0,
+            2
+        ],
+        "rmse": 101.70482427430176
+    },
+    "Shillong": {
+        "model_file": "Shillong_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            2
+        ],
+        "rmse": 12.035304799791577
+    },
+    "Talcher": {
+        "model_file": "Talcher_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            2
+        ],
+        "rmse": 167.67858497938826
+    },
+    "Thiruvananthapuram": {
+        "model_file": "Thiruvananthapuram_AutoARIMA.pkl",
+        "order": [
+            1,
+            1,
+            1
+        ],
+        "rmse": 22.84916352491333
+    },
+    "Visakhapatnam": {
+        "model_file": "Visakhapatnam_AutoARIMA.pkl",
+        "order": [
+            2,
+            0,
+            2
+        ],
+        "rmse": 52.16309956433205
+    }
+}
