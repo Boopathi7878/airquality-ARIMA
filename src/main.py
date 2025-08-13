@@ -11,12 +11,15 @@ PROJECT_ROOT = os.path.dirname(BASE_DIR)               # /mount/src/airquality-a
 MODELS_DIR = os.path.join(PROJECT_ROOT, "models")       # /mount/src/airquality-arima/models
 ZIP_PATH = os.path.join(PROJECT_ROOT, "models.zip")     # /mount/src/airquality-arima/models.zip
 
-# --- Unzip models if not already extracted ---
-if os.path.exists(ZIP_PATH) and not os.path.exists(MODELS_DIR):
+# --- Unzip models if missing or empty ---
+if os.path.exists(ZIP_PATH) and (not os.path.exists(MODELS_DIR) or not os.listdir(MODELS_DIR)):
     os.makedirs(MODELS_DIR, exist_ok=True)
     with zipfile.ZipFile(ZIP_PATH, 'r') as zip_ref:
         zip_ref.extractall(MODELS_DIR)
     print(f"✅ Extracted models.zip to {MODELS_DIR}")
+    print(f"📂 Extracted files: {os.listdir(MODELS_DIR)}")
+else:
+    print("ℹ️ Models folder already populated or models.zip not found.")
 
 # --- Utility Functions ---
 def list_available_cities():
