@@ -1,16 +1,22 @@
 import os
+import zipfile
 import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-# Paths
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # .../src
-PROJECT_ROOT = os.path.dirname(BASE_DIR)  # .../air_quality
-MODELS_DIR = os.path.join(PROJECT_ROOT, "models")  # .../air_quality/models
+# --- Paths ---
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # /mount/src/airquality-arima/src
+PROJECT_ROOT = os.path.dirname(BASE_DIR)               # /mount/src/airquality-arima
+MODELS_DIR = os.path.join(PROJECT_ROOT, "models")       # /mount/src/airquality-arima/models
+ZIP_PATH = os.path.join(PROJECT_ROOT, "models.zip")     # /mount/src/airquality-arima/models.zip
 
-# Create models directory if missing
-os.makedirs(MODELS_DIR, exist_ok=True)
+# --- Unzip models if not already extracted ---
+if os.path.exists(ZIP_PATH) and not os.path.exists(MODELS_DIR):
+    os.makedirs(MODELS_DIR, exist_ok=True)
+    with zipfile.ZipFile(ZIP_PATH, 'r') as zip_ref:
+        zip_ref.extractall(MODELS_DIR)
+    print(f"✅ Extracted models.zip to {MODELS_DIR}")
 
 # --- Utility Functions ---
 def list_available_cities():
